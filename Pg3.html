@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3</title>
+    <script>
+        function Enviar(){
+
+            const num1 = Number(document.getElementById('alt').value);
+            const num2 = Number(document.getElementById('larg').value);
+
+            document.getElementById('resu').innerHTML = num1 * num2
+            document.getElementById('cm').innerHTML = " cm2"
+
+
+        }
+
+    </script>
+</head>
+<body>
+
+    <h1>Retângulo</h1>
+    Altura: <input type="number" id="alt"><br>
+    Largura: <input type="number" id="larg">
+    <p>A área do retângulo é: <span id="resu"></span> <span id="cm"></span></p>
+
+    <button onclick="Enviar()">Calcular</button><br><br>
+
+    <a href="Pg1.html">Segunda Questão</a><br>
+    <a href="Pg2.html">Primeira Questão</a><br>
+    <a href="Pg4.html">Quarta Questão</a><br>
+    <a href="Pg5.html">Quinta Questão</a><br>
+    
+</body>
+</html>
